@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic HTML</title>
+
+  <style>
+    .image {
+  height: 100px;
+  width: auto;
+}
+  </style>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <table class="table">
+    <tr class="table__row">
+      <td class="table__cell">
+        <img src="placeholder.webp" class="image" alt="placeholder image"><h3 id="welcome">Welcome.</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ullam provident voluptas quas quidem <span style="color: red;">earum dolore sint</span> voluptatum itaque, repellat id cupiditate laudantium corporis atque totam, explicabo iusto magni libero!</td>
+      <td class="table__cell">
+        <!-- <form action="/test-nz.html" method="get">
+          <input type="text">
+          <input type="submit" value="Submit"></input>
+        </form> -->
+        <form action="/test-nz.html" method="get">
+          <label for="name">First Name:</label>
+          <input type="text" id="name" name="name" autofocus><br><br>
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" name="lname"><br><br>
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email"><br><br>
+          <p>Contribution:</p>
+          <input type="radio" id="value1" name="amount" value="10">
+          <label for="value1">$10</label>
+          <input type="radio" id="value2" name="amount" value="20">
+          <label for="value2">$20</label>
+          <br><br>
+          <input type="submit" value="Submit">
+          
+        </form>
+    </td>
+    </tr>
+  </table>
+ 
+<script src="scripts.js"></script>  
+</body>
+</html>
